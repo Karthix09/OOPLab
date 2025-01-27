@@ -98,6 +98,7 @@ public class GameMaster extends ApplicationAdapter{
 				bucket.setPosX(Gdx.graphics.getWidth() - bucket.getTexture().getWidth());
 			}
 		}
+
 		
 	       shape.begin(ShapeRenderer.ShapeType.Filled);
 	       

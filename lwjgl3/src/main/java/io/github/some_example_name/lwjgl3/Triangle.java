@@ -51,7 +51,7 @@ public class Triangle extends Entity{
 	    p2Y = getPosY() - size;
 
 	    p3X = getPosX();
-	    p3Y = getPosY()+size;
+	    p3Y = getPosY() + size;
 	    
 		shape.triangle(p1X, p1Y, p2X, p2Y, p3X, p3Y);
 		shape.setColor(getColor());

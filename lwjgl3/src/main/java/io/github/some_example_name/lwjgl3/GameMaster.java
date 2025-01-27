@@ -104,6 +104,7 @@ public class GameMaster extends ApplicationAdapter{
 	       
 	       circle.drawShape(shape);
 	       triangle.drawShape(shape);
+	       System.out.println(triangle);
 	       
 	       shape.end();
 	       
